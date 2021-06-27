@@ -116,7 +116,7 @@ float:left;
 
             
 }
-/*tablet display*/
+/*tablet display**/
 @media(min-width:764px) and (max-width:991px){
     .col-lg-4{
         width: 50%;
