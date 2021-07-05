@@ -1,0 +1,79 @@
+body{
+  font-size: 16px;
+  font-family: 'Exo 2',sans-serif;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 2px solid #000 !important;
+}
+#header-nav{
+  background-color: #999999;
+  border:2px solid #000;
+  border-radius: 0;
+}
+.navbar-brand{
+  margin-top: 10px;
+  padding-top: 10px;
+}
+.navbar-nav{
+  margin: 0 -15px !important;
+}
+.navbar-brand h1{
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 15px;
+  line-height: .7;
+}
+.navbar-brand a:hover, .navbar-brand a:focus{
+  text-decoration: none;
+}
+#nav-list{
+  border: 1px solid;
+}
+#nav-list:nth-child(3){
+  border-bottom:0 ;
+}
+#nav-list li{
+  background: #fff;
+  border-bottom: 2px solid;
+}
+#nav-list li:nth-child(3){
+  border-bottom: 0;
+}
+#nav-list li a{
+  color: #000;
+  font-weight: 600;
+  line-height: 8px;
+}
+.menu{
+  margin: 15px;
+}
+
+#main-content {
+  width: 92%;
+  margin-bottom: 30px;
+}
+
+#main-content h2 {
+  font-size: 2.9em;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+#main-content h3 {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+#chicken-tile, #beef-tile, #sushi-tile {
+  width: 100%;
+  padding: 20px;
+  background-color: #999999;
+  margin-bottom: 60px;
+  box-shadow: 0 0 20px #000;
+}
+
